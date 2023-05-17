@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 img1 = cv2.imread("safi_gray.jpg")
 img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2RGB)
 
-img2 = cv2.imread("safiresized.jpg")
+img2 = cv2.imread("rgbsafi.jpg")
 img2 = cv2.cvtColor(img2, cv2.COLOR_BGR2RGB)
 
 # İlk görüntüyü gösterin
