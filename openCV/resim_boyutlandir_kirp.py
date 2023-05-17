@@ -12,7 +12,7 @@ cv2.imshow("img Resized", imgResized)
 cv2.imwrite("resim_video_kayitlari/rgbsafi.jpg", img)
 
 
-#kırpma
+#kırpmaa
 
 imgCropped = img[:200,0:300] #height  width
 cv2.imshow("Kirpik Resim", imgCropped)
