@@ -1,7 +1,7 @@
 import cv2
 
 #
-img = cv2.imread("safi.JPG",1)
+img = cv2.imread("resim_video_kayitlari/safi.JPG",1)
 print("Resim Boyutu: ", img.shape)
 cv2.imshow("Orjinal", img)
 
@@ -9,7 +9,7 @@ cv2.imshow("Orjinal", img)
 imgResized = cv2.resize(img, (800,800))
 print("Resized Img Shape: ", imgResized.shape)
 cv2.imshow("img Resized", imgResized)
-cv2.imwrite("safiresized.jpg", img)
+cv2.imwrite("resim_video_kayitlari/rgbsafi.jpg", img)
 
 
 #kırpma
