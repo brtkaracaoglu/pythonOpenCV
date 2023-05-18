@@ -13,7 +13,7 @@ hands = mpHand.Hands()
 # Eller üzerinde çizim yapmak için mediapipe'nin drawing_utils sınıfını kullan
 mpDraw = mp.solutions.drawing_utils
 
-# FPS hesaplama için kullanılacak değişkenler
+# FPS hesaplama için kullanılacak değişkenlerr
 pTime = 0
 cTime = 0
 
